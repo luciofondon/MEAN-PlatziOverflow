@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Question } from './question.model';
+<<<<<<< HEAD
 import { NgForm } from './angular/forms';
 import { icons } from './icons';
 
@@ -41,5 +42,15 @@ export class QuestionFormComponent {
     )
     console.log(q)
   }
+=======
+
+@Component({
+  selector: 'app-question-form',
+  templateUrl: './question-form.component.html'
+})
+
+export class QuestionFormComponent {
+
+>>>>>>> 22e15e87c6557cec2b2492ad538e1f891a82fd73
     
 }

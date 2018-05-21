@@ -19,8 +19,11 @@ import { QuestionFormComponent } from './question/question-form.component';
 
 import { MomentModule } from 'angular2-moment';
 
+<<<<<<< HEAD
 import { Routing } from './app.routing';
 
+=======
+>>>>>>> 22e15e87c6557cec2b2492ad538e1f891a82fd73
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,8 +40,12 @@ import { Routing } from './app.routing';
     MaterialModule,
     MomentModule,
     FormsModule,
+<<<<<<< HEAD
     ReactiveFormsModule,
     Routing
+=======
+    ReactiveFormsModule
+>>>>>>> 22e15e87c6557cec2b2492ad538e1f891a82fd73
   ],
   providers: [],
   bootstrap: [AppComponent]
